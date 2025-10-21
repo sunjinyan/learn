@@ -36,7 +36,7 @@ if __name__ == "__main__":
     goodsIdx = {}
     l = len(goods)
     # for idx in range(l):
-    for idx,good in enumerate(goods): #todo 这个是
+    for idx,good in enumerate(goods): #todo 这个是把 数组的 key也遍历出来，不加只会遍历数组的值
         print(good)
 
         print(f"goods:{good['id']},name:{good['name']},money:{good['money']}")
